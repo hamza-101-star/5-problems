@@ -1,0 +1,14 @@
+This program checks whether a number entered by the user is a prime number.
+
+How it works:
+The user is asked to input a number, which is stored as an integer.
+
+The program first checks if the number is greater than 1, since prime numbers are defined as greater than 1.
+
+It then uses a for loop to check if the number is divisible by any number between 2 and itself (exclusive):
+
+If a divisor is found, it's not a prime number.
+
+If no divisors are found, the number is prime.
+
+The else attached to the for loop runs only if the loop completes without hitting break, meaning no divisors were found.

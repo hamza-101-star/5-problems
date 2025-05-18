@@ -1,0 +1,14 @@
+This Python program is a simple number guessing game where the user tries to guess a randomly selected number between 1 and 10.
+
+How it works:
+The random module is imported to generate random numbers.
+
+A random number between 1 and 10 is generated using random.randint(1, 10) and stored in the variable secret_number.
+
+The user is asked to input a guess, which is converted from a string to an integer using int().
+
+The program compares the user's guess with the secret number:
+
+If the guess matches, the user is congratulated.
+
+If not, the program reveals the correct number.

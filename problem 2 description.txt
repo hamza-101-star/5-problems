@@ -1,0 +1,9 @@
+This program calculates the area of a rectangle based on user input.
+
+How it works:
+It prompts the user to enter the width and height of a rectangle using the input() function.
+
+The input values are converted to floating-point numbers using float() to allow decimal values.
+
+The area is calculated using the formula: Area = Width × Height
+

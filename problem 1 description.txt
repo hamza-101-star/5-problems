@@ -1,0 +1,8 @@
+This is a basic Python program designed to interact with the user by asking for their name and then greeting them personally.
+
+How it works:
+The program uses the input() function to prompt the user to enter their name.
+
+It stores the entered name in a variable called name.
+
+Using an f-string, it prints a personalized greeting message that includes the user's name.
